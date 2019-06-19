@@ -1,5 +1,6 @@
 require 'pry'
 binding.pry 
+
 songs = [
   "Phoenix - 1901",
   "Tokyo Police Club - Wait Up",
@@ -19,7 +20,6 @@ def help
         - play : lets you choosr a song to play
         - exit : exits this program"
 end
-
 
 def play(songs)
   puts "Please enter a song name or number:"
